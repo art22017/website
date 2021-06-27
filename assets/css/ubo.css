@@ -93,3 +93,34 @@ body {
   text-align: center;
   color: #fff;
 }
+
+.latest {
+  text-align: center;
+  font-size: 30px;
+  color: #bfbfbf;
+}
+.version {
+  color: #7e57ff;
+}
+
+.download__buttons {
+  width: 100vw;
+  height: 10vh;
+  vertical-align: middle;
+  padding: 1vw;
+}
+.buttons_container {
+  display: flex;
+  justify-content: space-around;
+}
+.download__button {
+  display: inline-block;
+  color: #fff;
+  padding: 0.5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4103fc;
+  border-radius: 16vh;
+}
