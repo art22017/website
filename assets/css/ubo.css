@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
@@ -8,7 +12,7 @@ body {
   margin: 0 auto;
   width: 100vw;
   height: 50vh;
-  background-color: #ffe100;
+  background-color: #c0b9ff;
 }
 .up__black {
   display: flex;
@@ -48,15 +52,13 @@ body {
   text-decoration: none;
   background-color: #333;
   border-radius: 16vh;
-  border: 0.5vh solid #ffe100;
+  border: 0.5vh solid #c0b9ff;
 }
 .up__gray {
-  margin: 0 auto;
-  padding: 0 auto;
+  width: 100vw;
   background-color: #454545;
-  font-size: 22px;
 }
-.gray__subtitle {
+.gray__title {
   margin: 0 auto;
   padding-top: 8vh;
   padding-bottom: 5vh;
@@ -65,10 +67,29 @@ body {
   color: #fff;
 }
 .ps {
-  color: #ffe100;
+  font-size: 24px;
+  color: #c0b9ff;
   text-align: center;
 }
 .description {
-  color: #ffe100;
+  word-wrap: break-word;
+  font-size: 22px;
+  color: #fff;
   text-align: center;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-bottom: 15vh;
+  margin-bottom: 0;
+}
+.up__download {
+  width: 100vw;
+  background-color: #333;
+}
+.download__title {
+  padding-top: 8vh;
+  margin: 0 auto;
+  padding-bottom: 5vh;
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
 }
