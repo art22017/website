@@ -1,0 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px
+}
+
+.remont {
+  font-size: 36px;
+  text-align: center;
+  color: red;
+}
+.remont__link {
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
