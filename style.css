@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+    }
+body{
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    margin: auto;
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 56px;
+    background-image: url(./title.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100vw;
+    height: 80vh;
+}
+.title{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+}
+.table{
+    text-align: center;
+    width: 50vw;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+th,td{
+    border: 2px solid gray;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+.engines{
+    color: white;
+    vertical-align:auto;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-image: url(./engines.jpg);
+    background-size: 100vw;
+    background-position: center;
+    padding-top: 5vh;
+    margin-bottom: 0px;
+    padding-bottom: 5vh;
+}
+.but1{
+    color: white;
+    background-color: black;
+    padding: 2px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: 3px black solid;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 1s;
+}
+.but1:hover{
+    color: whitesmoke;
+    background-color: #222222;
+    border: #222222;
+}
+.last{
+    color: white;
+    margin: 0 auto;
+    vertical-align:auto;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-image: url(./last.jpg);
+    background-size: 100vw;
+    background-position: center;
+    padding-top: 5vh;
+    margin-bottom: 0px;
+    padding-bottom: 5vh;
+}
+.galerey{
+    color: white;
+    margin: 0 auto;
+    vertical-align:auto;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-image: url(./galerey.jpg);
+    background-size: 100vw;
+    background-position: center;
+    padding-top: 5vh;
+    margin-bottom: 0px;
+    padding-bottom: 5vh;
+}
+header{
+    background-color: #222222;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+}
+.hdr{
+    transition: 1s;
+}
+.hdr:hover{
+    color: #999;
+}
+.fs{
+    margin: 0 auto;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f5/Soyuz_rocket_engines.jpg);
+    background-position: bottom;
+    height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.etitle{
+    margin: 0 auto;
+    padding-top: 10vh;
+    font-size: 42px;
+}
+.einfo{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 32px;
+}
+.ss{
+    margin: 0 auto;
+    background-image: url(http://api.gklaunch.ru/uploads/2019/11/KNZ_0221.jpg);
+    background-position: bottom;
+    height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.ts{
+    margin: 0 auto;
+    background-image: url(third.jpg);
+    background-position: center;
+    height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+@media screen and (max-width: 500px) {
+    h1{
+        background-size: 500vw;
+    }
+}
+.boxes{
+    width: 100vw;
+    border: none;
+}
